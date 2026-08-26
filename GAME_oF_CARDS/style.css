@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+}
+.card{
+    position: absolute;/*ye 4 line is very imp*/
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 300px;
+    width: 230px;
+    border: 1px solid salmon;
+    border-radius: 20px;
+}
+#card1{
+    z-index: 4;/*isse first card pehle aa jata hai*/
+    overflow: hidden;
+}
+#card2{
+    z-index: 3;
+    transform: translate(-50%,-50%) rotate(-7deg);
+    overflow: hidden;
+}
+#card3{
+    z-index: 2;
+    transform: translate(-50%,-50%) rotate(-14deg);
+    overflow: hidden;
+}
+#card4{
+    z-index: 1;
+    transform: translate(-50%,-50%) rotate(-21deg);
+    overflow: hidden;
+}
+#card2:hover{
+    z-index: 5;
+}
+#card3:hover{
+    z-index: 5;
+}
+#card4:hover{
+    z-index: 5;
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    overflow: hidden;
+}
