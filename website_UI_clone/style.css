@@ -2,8 +2,111 @@
     margin:0;
     padding:0;
     box-sizing:border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 html,body{
     height:100%;
     width:100%;
+}
+#main{
+    height:100%;
+    width:100%;
+}
+#header{
+     height:10vh;
+     width:100vw;
+     background-color:white;
+     position:fixed;
+     display:flex;
+     align-items:center;
+     justify-content:space-between;
+}
+#fakeheader{
+    height:10vh;
+    width:100%;
+    background-color:salmon ;
+}
+#logo{
+    border-radius:10px;
+    object-fit:cover;
+}
+.text{
+   color:darkgreen;
+}
+.text:hover{
+    background-color: #46e093;
+    padding:10px;
+    border-radius:20px;
+}
+#ContactDetails{
+    color:rgb(73, 170, 73);
+    font-weight: lighter;
+}
+.icon{
+    margin-left: 10px;
+    padding:10px;
+    border-radius:50%;
+}
+.icon:hover{
+     background-color:#5dc3a8;
+}
+#order{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+#page1{
+     height:90vh;
+    width:100%;
+    background-color:#FFF8E7;
+}
+#strip{
+    width:100%;
+    height:8%;
+    background-color: #dfef63;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:rgb(21, 29, 36);
+    font-weight: bolder;
+    font-size:20px;
+}
+#content1{
+    width:100%;
+    height:50%;
+}
+#content1 h3{
+    color:rgb(105, 25, 32);
+}
+#strip2{
+    width:100%;
+    margin-top:20px;
+    display:flex;
+    text-align:center;
+    justify-content:center;
+    font-size:x-large;
+    color:rgb(43, 0, 0);
+}
+#content2 img{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    width:200px;
+    height:200px
+}
+#content2 h3{
+    color:rgb(105, 25, 32);
+}
+#strip3{
+    width:100%;
+    margin-top:20px;
+    display:flex;
+    text-align:center;
+    justify-content:center;
+    font-size:x-large;
+    color:rgb(43, 0, 0);
+}
+.product{
+    display:flex;
+    align-items:center;
 }
