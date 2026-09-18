@@ -125,3 +125,14 @@ span{
     width:80%;
     margin-bottom:20px;
 }
+.shopping-section{
+    display:flex;
+    justify-content:space-evenly;
+    background-color:rgb(231, 193, 124);
+}
+.box{
+    border:2px solid black;
+    height:400px;
+    width:22%;
+    background-color:white;
+}
