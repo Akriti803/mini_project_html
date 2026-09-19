@@ -111,8 +111,9 @@ span{
     font-size:0.9rem;
 }
 .hero-section{
-    background-image:url(68be85f0ee47b7ed4d1564c7_67d9714448eeb4cd6c42290d_header.webp);
+    background-image:url('https://images.unsplash.com/photo-1498049794561-7780e7231661?w=1600&h=400&fit=crop');
     background-size:cover;
+    background-position:center;
     height:400px;
     display:flex;
     justify-content:center;
@@ -135,4 +136,86 @@ span{
     height:400px;
     width:22%;
     background-color:white;
+    position:relative;
+    padding:20px;
+}
+.box-img{
+   height:300px;
+   width:100%;
+   background-size:cover;
+   background-position:center;
+   background-repeat:no-repeat;
+   border:2px solid black;
+}
+.box p{
+    position:absolute;
+    bottom:5px;
+    left:5px;
+    text-decoration:none;
+    color:rgba(35, 163, 227, 0.791);
+}
+.box p:hover{
+    text-decoration:underline;
+}
+footer{
+    margin-top:10px;
+}
+.panel1{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color:#37475a;
+    color:white;
+    border:1px solid transparent;
+    height:35px;
+    font-size:0.75rem;
+}
+.panel2{
+    background-color:#222f3d;
+    color:white;
+    height:200px;
+    display:flex;
+    justify-content: space-evenly;
+}
+ul{
+    margin-top:15px;
+}
+ul a{
+    display:block;/*sab kuch ek single line me aa jaayega*/
+    font-size:0.92rem;
+    margin-top:10px;
+    color:#dddddd;
+}
+.panel3{
+    background-color:#222f3d;
+    color:white;
+    border-top:0.5px solid white;
+    height:70px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.logo-img{
+    background-image:url(Amazon-Emblem.jpg);
+    background-size:cover;
+    height:50px;
+    width:100px;
+}
+.panel4{
+    background-color:#0f1111;
+    color:white;
+    height:80px;
+   /* display:flex;
+    justify-content:center;
+    align-items:center;*/
+}
+.foot-option{
+     font-size:0.85rem;
+     text-align:center;
+     padding:15px;
+}
+.copyright{
+    font-size:0.85rem;
+    text-align:center;
+    padding:1.5px;
 }
